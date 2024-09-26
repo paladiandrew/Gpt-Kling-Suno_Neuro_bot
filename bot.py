@@ -21,12 +21,11 @@ import json
 logging.basicConfig(level=logging.INFO)
 DEFAULT_API_KEY = "d8a0d470d4abf0a20fa98b289c79116af6cb9c5794a3109931b720455bce28cb"
 dp = Dispatcher()
-bot = Bot(token="7313543393:AAESKa-76wbVrUHDJ0qvcyhLlv0A7NOfYkw")
 
 users = {}
 audio_keys = {}
 video_keys = {}
-admins = [1757400796]
+admins = []
 admin_statuses = {}
 keys = []
 
