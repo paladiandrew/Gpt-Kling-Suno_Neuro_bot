@@ -5,7 +5,7 @@ from aiofiles import open as aio_open
 from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_audioclips
 from moviepy.audio.fx import audio_fadeout
 
-DEFAULT_API_KEY = "d8a0d470d4abf0a20fa98b289c79116af6cb9c5794a3109931b720455bce28cb"
+DEFAULT_API_KEY = "d"
 
 
 class reqApi:
