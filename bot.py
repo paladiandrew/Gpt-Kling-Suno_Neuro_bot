@@ -19,7 +19,6 @@ import json
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
-DEFAULT_API_KEY = "d8a0d470d4abf0a20fa98b289c79116af6cb9c5794a3109931b720455bce28cb"
 dp = Dispatcher()
 
 users = {}
