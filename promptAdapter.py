@@ -3,12 +3,6 @@ import asyncio
 import re
 from models import create_test_video, create_video, create_audio, concatenate
 
-
-API_KEY = "AQVN29iNFWLm5DnsJDlmY6yGZNmPHV8QX_XEYjFA"
-FOLDER_ID = "b1gv5il4qe6vdpf2c8na"
-MODEL_URI = f"gpt://{FOLDER_ID}/yandexgpt-lite"
-
-
 def clean_text(text, flag):
     # Удаляем слова 'prompt' и 'description' независимо от регистра
     text = re.sub(
